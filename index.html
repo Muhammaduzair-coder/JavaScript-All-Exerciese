@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JAVASCRIPT EXERCISE</title>
+    <script src="app.js"></script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- 
+=====================chap 6-9 task 03 ======================= -->
+<!-- <h1>Text Box Input and Output</h1>
+ <form action = "">
+  <fieldset>
+  <label>Type your name: </label>
+  <input type = "text"
+    id = "txtName" />
+  <input  type = "button"
+    value = "click me"
+    onclick = "sayHi()"/>
+  <input type = "text"
+    id = "txtOutput" />
+  </fieldset>
+ </form> -->
+<!-- 
+
+=====================chap 6-9 task 05 ======================= -->
+<!-- 
+<h1>Text Box Input and Output</h1>
+ <form action = "">
+  <fieldset>
+  <label>Type your name: </label>
+  <input type = "text"
+    id = "txtName" />
+  <input  type = "button"
+    value = "click me"
+    onclick = "sayHi()"/>
+ 
+  </fieldset>
+ </form> -->
+
+
+ <!-- =====================chap 6-9 task 06 ======================= --> -->
+
+
+<!-- 
+
+ <h1>MARKSHEET</h1>
+
+
+ <input type="text" id="s1">Enter Your Subject1 <br><br>
+
+ <input type="text" id="ob1">Enter your obtained marks for Subject1 <br><br>
+
+ <input type="text" id="s2">Enter Your Subject2 <br><br>
+
+
+ <input type="text" id="ob2">Enter your obtained marks for Subject2 <br><br>
+
+ <input type="text" id="s3">Enter Your Subject3 <br><br>
+
+ <input type="text" id="ob3">Enter your obtained marks for Subject3 <br><br>
+
+
+
+ <input type="button" value="check out" onclick="sayhi()" />
+ <div class="abc">
+     <table>
+         <tr>
+             <th class="sizein">SUBJECT &nbsp; &nbsp;</th>
+             <th class="sizein">TOTAL MARKS &nbsp; &nbsp;</th>
+             <th class="sizein">OBTAINED MARKS &nbsp; &nbsp;</th>
+             <th class="sizein">PERCENTAGE &nbsp; &nbsp;</th>
+         </tr>
+         <tr>
+             <td id="sub1"></td>
+             <td id="t1_mk"></td>
+             <td id="o1_mk"> </td>
+             <td id="percentage-1"></td>
+         </tr>
+         <tr>
+             <td id="sub2"></td>
+             <td id="t2_mk"></td>
+             <td id="o2_mk"></td>
+             <td id="percentage-2"></td>
+         </tr>
+         <tr>
+             <td id="sub3"></td>
+             <td id="t3_mk"></td>
+             <td id="o3_mk"></td>
+             <td id="percentage-3"></td>
+         </tr>
+         <tr>
+             <td>
+                 <hr>
+             </td>
+             <td>
+                 <hr>
+             </td>
+             <td>
+                 <hr>
+             </td>
+             <td>
+                 <hr>
+             </td>
+
+         </tr>
+
+         <tr>
+             <td>TOTAL</td>
+             <td id="add_totalMarks"></td>
+             <td id="add_obtainedMarks"></td>
+             <td id="add_totalPercentage"></td>
+
+         </tr>
+     </table>
+ </div> -->
+
+
+<!-- 43-48
+task 3 --> 
+
+<!-- 
+49- 52 also 
+task no 03 -->
+
+
+<!-- -=---------- -->
+<!-- 
+    <table>
+        <tr>
+            <td>INDEX</td>
+            <td> &nbsp;&nbsp; NAME</td>
+            <td>CLASS</td>
+        <tr>
+            <td>1</td>
+            <td contenteditable=" true" id="av">uzair</td>
+            <td>9</td>
+            <td> <button  onclick="SomeDeleteRowFunction(this)">DELETE</button > </td>
+                <td> <button  onclick="edit(this)">EDIT</button > </td>
+                </tr>
+        <tr>
+            <td>2</td>
+            <td>shahxaib</td>
+            <td>9</td>
+            <td> <button  onclick="SomeDeleteRowFunction(this)">DELETE</button > </td>
+        
+                <td> <button  onclick="edit(this)">EDIT</button > </td>
+                </tr>
+        <tr>
+            <td>3</td>
+            <td>huzaifa</td>
+            <td>9</td>
+            <td> <button  onclick="SomeDeleteRowFunction(this)">DELETE</button > </td>
+        
+            <td> <button  onclick="edit(this)">EDIT</button > </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>shahmir</td>
+            <td>9</td>
+            <td> <button  onclick="SomeDeleteRowFunction(this)">DELETE</button > </td>
+
+            <td> <button  onclick="edit(this)">EDIT</button > </td>
+        </tr>
+        <tr>
+        <td>5</td>
+        <td>umer</td>
+        <td>9</td>
+        <td> <button  onclick="SomeDeleteRowFunction(this)">DELETE</button > </td>
+            <td> <button  onclick="edit(this)">EDIT</button > </td>
+    </tr>
+        <tr>
+        <td>6</td>
+        <td >shuja</td>
+        <td>9</td>
+        <td> <button  onclick="SomeDeleteRowFunction(this)">DELETE</button > </td>
+            <td> <button  onclick="edit(this)">EDIT</button > </td>
+    </tr>
+        <tr>
+        <td>7</td>
+        <td>ali</td>
+        <td>9</td>
+        <td> <button  onclick="SomeDeleteRowFunction(this)">DELETE</button > </td>
+            <td> <button  onclick="edit(this)">EDIT</button > </td>
+    </tr>
+        <tr>
+        <td>8</td>
+        
+        <td>shahmir</td>
+        <td>9</td>
+        <td> <button  onclick="SomeDeleteRowFunction(this)">DELETE</button > </td>
+            <td> <button  onclick="edit(this)">EDIT</button > </td>
+     </tr>
+        <tr>
+        <td>9</td>
+        <td>huzaifa</td>
+        <td>9</td>
+        <td> <button  onclick="SomeDeleteRowFunction(this)">DELETE</button > </td>
+            <td> <button  onclick="edit(this)">EDIT</button > </td>
+    </tr>
+        <tr>
+            <td>10</td>
+        <td>faraz</td>
+        <td>9</td>
+        <td> <button  onclick="SomeDeleteRowFunction(this)">DELETE</button > </td>
+            <td> <button  onclick="edit(this)">EDIT</button > </td>
+       
+        </tr>
+    </table>
+
+
+     -->
+<!-- 
+43-48
+task 4 -->
+<!-- -=---------- -->
+<!-- 
+<img style=" width: 350px; margin: 5% 35%;" src="download.jpg" href="" id="img" onmouseover="change('img' , 'download1.jpg')" onmouseout="change('img' , 'download.jpg')" ></a> -->
+
+
+ <!-- =====================chap 9-11 task 06 ======================= --> -->
+<!-- 
+ <h1>MARKSHEET</h1><hr>
+ <p class="totalm"></p>
+ <p class="obm"></p>
+ <p class="percen"></p>
+ <p class="grad"></p>
+ <p class="remark"></p> -->
+
+ <!-- =====================chap 9-11 task 09 ======================= --> -->
+
+  
+
+<!-- 
+ <h2 style="text-align: center; color: white; background-color: #FA2B6D"> JavaScript to find  out TEMPERATURE </h2>
+
+ <label> Enter Temperature </label> <br>
+ <input type="number" name="" id="tempchk" onkeyup="isCheck()">
+ <span id="showMssg" style="color: #342BFA;">  </span>
+</br><br>
+
+ <label> Enter Number </label> <br>
+ <input type="number" name="" id="evenOdds" onkeyup="isChecks()">
+ <span id="showMssgs" style="color: #FA2B44;">  </span> -->
+
+
+
+
+ <!-- =====================chap 14-16 task 15 ======================= --> -->
+
+<!-- 
+ <select name="m" id="mbls">
+    <option id="mb1" value=""></option>
+    <option id="mb2" value=""></option>
+    <option id="mb3" value=""></option>
+    <option id="mb4" value=""></option>
+    <option id="mb5" value=""></option>
+</select>
+</body> -->
+
+
+
+<!-- 
+43-48
+task 5 -->
+<!-- -=---------- -->
+<!-- 
+
+<button onclick="sub()" >decrease</button>
+<input  id="inp" type="number" >
+<button onclick="add()" >increase</button>
+
+
+ -->
+
+
+
+<!-- 
+ <h1>MARKSHEET</h1><hr>
+    <p class="totalm"></p>
+    <p class="obm"></p>
+    <p class="percen"></p>
+    <p class="grad"></p>
+    <p class="remark"></p>
+ -->
+
+
+
+ 
+
+<!-- 49 -52 -->
+<!-- TASK NO 1 -->
+<!-- 
+<section>
+<h1 style="width: 9rem;">SIGN UP</h1>
+    <label style="margin-left: 30%" >FIRSTNAME : </label><input id="FNAME" style="  outline: none;  border-width: 0  0 3px 0; margin-left: 30;" type="text"> <br>  <br> <br>
+    <label style="margin-left: 30%" >LASTNAME : </label><input class="LNAME" style=" border-width: 0 0 3px 0; margin-left: 30;" type="text"> <br>  <br> <br>
+    <label  style="margin-left: 30%">AGE : </label><input class="AGE" style=" border-width: 0 0 3px 0; margin-left: 30;" type="text"> <br>  <br> <br>
+    <label style="margin-left: 30%" >COUNTRY : </label><input class="COUNTRY" style=" border-width: 0 0px 3px 0; margin-left: 30;" type="text"> <br>  <br> <br>
+    <label style="margin-left: 30%" >PASSWORD : </label><input class="PASSWORD" style=" border-width: 0 0 3px 0; margin-left: 30;" type="text"> <br>  <br> <br>
+    <label  style="margin-left: 30%">RETYPE PASSWORD : </label><input class="PASSWORD1" style=" border-width: 0 0 3px 0; margin-left: 30;" type="text"> <br>  <br> <br>
+<input style="margin-left: 30%" type="checkbox"> <h2><a style="margin-left: 30%; text-align: center;" href="#">AGREE WITH TERMS AND CONDITION</a></h2>
+     <input style=" margin-left: 30%; padding: 3px; width: 100px; " onclick="subm()" type="submit" placeholder="SUBMIT" >
+</section> -->
+
+<!-- 49 -52 -->
+<!-- TASK NO 2 -->
+<!-- <style >
+body{
+    background-color: aliceblue;
+}
+p{
+    color: black;
+    font-weight: bolder;
+}
+</style>
+<p id="ms" >Click the Show desktop button at the end of the notification area on the taskbar. (To restore minimized windows, click the Show desktop button again.)
+
+</p>
+<button onclick="more()">READ MORE</button>
+
+
+
+
+
+
+
+ -->
+
+
+
+<!-- chap[ 52 - 57] -->
+<!-- task no 01 -->
+<!-- 
+<img  id="myImg" onclick="showimg(this)"  height="70px"  width="100px" src="1.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="2.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="3.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="4.png" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="5.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="6.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="7.png" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="8.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="9.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="10.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="11.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="12.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="14.png" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="15.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="13.jpg" alt="">
+
+<img  id="myImg" onclick="showimg(this)"  height="70px"  width="100px" src="1.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="2.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="3.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="4.png" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="5.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="6.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="7.png" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="8.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="9.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="10.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="11.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="12.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="14.png" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="15.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="13.jpg" alt="">
+
+<img  id="myImg" onclick="showimg(this)"  height="70px"  width="100px" src="1.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="2.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="3.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="4.png" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="5.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="6.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="7.png" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="8.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="9.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="10.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="11.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="12.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="14.png" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="15.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="13.jpg" alt="">
+
+<img  id="myImg" onclick="showimg(this)"  height="70px"  width="100px" src="1.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="2.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="3.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="4.png" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="5.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="6.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="7.png" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="8.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="9.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="10.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="11.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="12.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="14.png" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="15.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="13.jpg" alt="">
+
+<img  id="myImg" onclick="showimg(this)"  height="70px"  width="100px" src="1.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="2.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="3.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="4.png" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="5.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="6.jpg" alt="">
+<img  id="myImg" onclick="showimg(this)" height="70px" width="100px" src="7.png" alt="">
+
+
+<div id="myModal" class="modal">
+    <span id="cls" onclick="onClosedImagModal()" class="close">&times;</span>
+    <img src="" class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+   
+ -->
+
+
+<!-- task no 02 -->
+<!-- 
+<p id="textt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt id suscipit repellendus nisi assumenda dolore at voluptates debitis voluptatibus sint.</p>
+<button onclick="zoomplus()" >ZOOM IN</button>
+<button onclick="zoomminus()" >ZOOM OUT</button> -->
+
+
+
+
+<!-- ------------------------chap 58-67--------------- -->
+<!-- 
+<div>
+<h1> DOM </h1>
+<div id="form-content" class="content">
+<label for="first-name">First Name</label>
+<input type="text" id="first-name" />
+<label for="last-name">Last Name</label>
+<input type=”text” id="last-name" />
+<label for="email">Email</label>
+<input type="text" id=”email” />
+</div>
+<div id="main" class="main-content">
+<p class=”render”> First Name : Alex</p>
+<p class="render" id="lastName">Last Name: Bank</p>
+<p class="render"> Email : alexbank@example.com</p>
+<p class="render"> Country : Pakistan </p>
+<p class="render"> contact : +92 300 1234567</p>
+</div>
+</div>
+
+ -->
+
+
+
+</body>
+</html>
+
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
